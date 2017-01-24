@@ -158,10 +158,8 @@ public class Item {
     @SerializedName("svn_url")
     private String svnUrl;
 
-    @SerializedName("homepage")
     private Object homepage;
 
-    @SerializedName("size")
     private Integer size;
 
     @SerializedName("stargazers_count")
