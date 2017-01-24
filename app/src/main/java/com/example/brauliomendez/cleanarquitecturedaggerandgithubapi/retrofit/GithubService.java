@@ -1,6 +1,7 @@
 package com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.retrofit;
 
-import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.User;
+import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.ApiConstants;
+import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.entity.User;
 
 import retrofit2.Call;
 import retrofit2.http.Field;
@@ -12,6 +13,6 @@ import retrofit2.http.POST;
 
 public interface GithubService {
 
-    @POST("users/{user_id}")
+    @POST(ApiConstants.USER_ENDPOINT)
     Call<User> getUserInfo(@Field("user_id") String id);
 }
