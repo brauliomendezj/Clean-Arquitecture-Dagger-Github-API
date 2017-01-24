@@ -1,6 +1,7 @@
 package com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.retrofit;
 
 import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.ApiConstants;
+import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.entity.SearchResponse;
 import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.entity.User;
 
 import retrofit2.Call;
@@ -15,4 +16,8 @@ public interface GithubService {
 
     @POST(ApiConstants.USER_ENDPOINT)
     Call<User> getUserInfo(@Field("user_id") String id);
+
+    @POST(ApiConstants.SEARCH_REPOSITORIES_ENDPOINT)
+    Call<SearchResponse> getRepositories(@Field("keyword") String keyword);
 }
+
