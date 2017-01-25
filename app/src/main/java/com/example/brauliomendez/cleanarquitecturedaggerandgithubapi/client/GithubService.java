@@ -1,13 +1,7 @@
 package com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.client;
 
-<<<<<<< Updated upstream:app/src/main/java/com/example/brauliomendez/cleanarquitecturedaggerandgithubapi/retrofit/GithubService.java
-import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.ApiConstants;
-import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.entity.SearchResponse;
-import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.entity.User;
-=======
 import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.search.domain.entity.SearchResponse;
 import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.search.domain.entity.User;
->>>>>>> Stashed changes:app/src/main/java/com/example/brauliomendez/cleanarquitecturedaggerandgithubapi/client/GithubService.java
 
 import io.reactivex.Observable;
 import retrofit2.Call;
