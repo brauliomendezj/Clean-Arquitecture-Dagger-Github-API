@@ -15,11 +15,7 @@ public class Item {
     @SerializedName("full_name")
     private String fullName;
 
-<<<<<<< HEAD
-    private User owner;
-=======
     private Owner owner;
->>>>>>> 39a09c2... NEW: Added User Package.
 
     @SerializedName("private")
     private Boolean _private;
@@ -219,11 +215,7 @@ public class Item {
         return fullName;
     }
 
-<<<<<<< HEAD
-    public User getOwner() {
-=======
     public Owner getOwner() {
->>>>>>> 39a09c2... NEW: Added User Package.
         return owner;
     }
 

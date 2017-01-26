@@ -2,33 +2,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.brauliomendez.cleanarquitecturedaggerandgithubapi">
 
-<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET"/>
-=======
-    <uses-permission android:name="android.permission.INTERNET" />
 
->>>>>>> 39a09c2... NEW: Added User Package.
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity android:name=".search.presentation.ui.MainActivity">
-=======
         <activity android:name=".user.presentation.ui.FindUsersActivity">
->>>>>>> 39a09c2... NEW: Added User Package.
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-=======
         <activity android:name=".search.presentation.ui.MainActivity"></activity>
->>>>>>> 39a09c2... NEW: Added User Package.
     </application>
 
 </manifest>
