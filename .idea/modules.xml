@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Clean-Arquitecture-Dagger-Github-API.iml" filepath="$PROJECT_DIR$/Clean-Arquitecture-Dagger-Github-API.iml" />
       <module fileurl="file://$PROJECT_DIR$/CleanArquitecture,DaggerandGithubAPI.iml" filepath="$PROJECT_DIR$/CleanArquitecture,DaggerandGithubAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kotlinversion/kotlinversion.iml" filepath="$PROJECT_DIR$/kotlinversion/kotlinversion.iml" />
     </modules>
   </component>
 </project>
