@@ -10,7 +10,7 @@ import io.reactivex.Observable;
  * Created by Leo on 24/01/17.
  */
 
-public class GithubSearchRepositoriesUseCase {
+  public class GithubSearchRepositoriesUseCase {
 
   private GithubSearchRepository githubSearchRepository;
 

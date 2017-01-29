@@ -1,4 +1,4 @@
-package com.example.kotlinversion.entity
+package com.example.kotlinversion.domain.entity
 
 import com.google.gson.annotations.SerializedName
 import java.util.*
