@@ -15,7 +15,7 @@ public class Item {
     @SerializedName("full_name")
     private String fullName;
 
-    private User owner;
+    private Owner owner;
 
     @SerializedName("private")
     private Boolean _private;
@@ -215,7 +215,7 @@ public class Item {
         return fullName;
     }
 
-    public User getOwner() {
+    public Owner getOwner() {
         return owner;
     }
 

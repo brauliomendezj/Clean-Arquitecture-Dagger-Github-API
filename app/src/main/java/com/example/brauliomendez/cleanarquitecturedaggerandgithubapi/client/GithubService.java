@@ -4,10 +4,8 @@ import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.search.doma
 import com.example.brauliomendez.cleanarquitecturedaggerandgithubapi.search.domain.entity.User;
 
 import io.reactivex.Observable;
-import retrofit2.Call;
-import retrofit2.http.Field;
 import retrofit2.http.GET;
-import retrofit2.http.POST;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 /**
@@ -16,8 +14,8 @@ import retrofit2.http.Query;
 
 public interface GithubService {
 
-    @POST(GithubClientConstants.USER_ENDPOINT)
-    Call<User> getUserInfo(@Field("user_id") String id);
+    @GET(GithubClientConstants.USER_ENDPOINT)
+    Observable<User> getUserInfo(@Path("user_id") String id);
 
     @GET(GithubClientConstants.SEARCH_REPOSITORIES_ENDPOINT)
     Observable<SearchResponse> getRepositories(@Query("q") String repository);

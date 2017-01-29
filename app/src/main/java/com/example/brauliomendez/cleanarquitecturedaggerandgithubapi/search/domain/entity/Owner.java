@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
  * Created by BraulioMendez on 1/24/17.
  */
 
-public class User {
+public class Owner {
 
     private String login;
 
